@@ -75,3 +75,30 @@ body {
     border-radius: 5px;
     font-size: 12px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+}
+
+.info .title {
+    padding: 16px;
+    margin: 16px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #152937;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 16px;
+}
+
+img {
+    height: auto;
+    width: 200px;
+}
