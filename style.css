@@ -35,6 +35,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 32px;
+    padding: 40px;
 }
 
 .hero .left {
@@ -74,6 +75,7 @@ body {
     margin: 4px 2px;
     border-radius: 5px;
     font-size: 12px;
+    font-weight: bold;
 }
 
 .info {
@@ -94,11 +96,84 @@ body {
 .images {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 50px;
     padding: 16px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
     height: auto;
-    width: 200px;
+    width: 170px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    margin: 16px;
+}
+
+.caption {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 200px;
+}
+
+.quote .text {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.banner {
+    background-color: #3882F6;
+    display: flex;
+    margin: 50px 140px;
+    border-radius: 5px;
+    padding: 40px 150px;
+    justify-content: space-between;
+}
+
+.banner .bold {
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.banner .sign {
+    color: #E5E7EB;
+}
+
+.banner .sign-up {
+    background-color: #3882F6;
+    width: 100px;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    text-align: center;
+    padding: 10px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 30px;
+    font-size: 12px;
 }
